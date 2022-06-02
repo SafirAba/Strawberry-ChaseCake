@@ -24,7 +24,8 @@
     </style>
   </head>
   <body>
-    <img src="images/LOBBY.JPEG" alt="An image of the Lobby" />
+    <img src="images/LOBB![LOBBY](https://user-images.githubusercontent.com/102485397/171732235-3e578924-30ac-467c-8e07-8136048d3b3c.JPEG)
+Y.JPEG" alt="An image of the Lobby" />
     <h1 class="username">Safir Prettner</h1>
     <h2 class="description">
       I study Computer Science at The Royal Institute of Technology
