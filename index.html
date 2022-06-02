@@ -5,15 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Safir Prettner</title>
     <style>
-      /*img {
-        width: 500px;
-        border-radius: 5px;
-        float: left;
-
-        margin-top: 200px;
-      }*/
-
-      /* Container holding the image and the text */
+     
       #object1 {
         width: 100%;
         height: 100%;
@@ -24,10 +16,10 @@
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        /* String value */
+       
       }
 
-      /* Centered text */
+    
       .centertext {
         z-index: 100;
         position: absolute;
@@ -44,12 +36,60 @@
         width: auto;
         position: relative;
       }
+      #object2 {
+        width: 400px;
+        height: 400px;
+        background-color: green;
+        object-fit: fill;
+        object-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        border-radius: 20px;
+      }
+      .container2 {
+        height: 50%;
+        width: auto;
+        position: relative;
+      }
+
+      .infotext {
+        z-index: 100;
+        position: absolute;
+        color: #abcdab;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 405px;
+        text-decoration-line: underline;
+      }
+      .infotext2 {
+        z-index: 100;
+        position: absolute;
+        color: #abcdab;
+        font-size: 25px;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 405px;
+        top: 35px;
+        right: 450px;
+      }
     </style>
   </head>
   <body>
     <div class="container">
       <img id="object1" src="background.jpg" alt="background image" />
       <div class="centertext">Safir Prettner</div>
+    </div>
+    <hr style="width: 100%; text-align: left; margin-left: 0" />
+    <div class="container2">
+      <img id="object2" src="LOBBY.JPEG" alt="lobby image" />
+      <a href="https://github.com/SafirAba/Strawberry-ChaseCake"
+        ><div class="infotext">Year one project</div>
+      </a>
+      <div class="infotext2">
+        A 2D cat and mouse game, thank you to Adeeba Aziz, Olivia Burgess, Sara
+        Oucif and Joanna Xu for working on this project with me.
+      </div>
     </div>
   </body>
 </html>
