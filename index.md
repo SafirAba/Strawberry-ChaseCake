@@ -1,19 +1,7 @@
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Safir Prettner</title>
     <style>
-      /*img {
-        width: 500px;
-        border-radius: 5px;
-        float: left;
 
-        margin-top: 200px;
-      }*/
-
-      /* Container holding the image and the text */
       #object1 {
         width: 100%;
         height: 100%;
@@ -24,10 +12,9 @@
         margin-left: auto;
         margin-right: auto;
         position: absolute;
-        /* String value */
       }
 
-      /* Centered text */
+ 
       .centertext {
         z-index: 100;
         position: absolute;
