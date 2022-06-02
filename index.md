@@ -16,9 +16,6 @@
         color: #abcdab;
         font-family: helvetica;
       }
-     body {
-     background-image: url('LOBBY.JPEG');
-     }
     </style>
   </head>
   <body>
