@@ -32,7 +32,7 @@
   </head>
   <body>
     <div class="container">
-      <img id="object1" src="images/background.jpg" alt="background image" />
+      <img id="object1" src="background.jpg" alt="background image" />
       <div class="centertext">Safir Prettner</div>
     </div>
   </body>
