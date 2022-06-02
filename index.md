@@ -5,8 +5,8 @@
         width: 200px;
         border-radius: 5px;
         float: left;
-
         margin-top: 200px;
+        
       }
       .username {
         font-family: helvetica bold;
@@ -16,6 +16,9 @@
         color: #abcdab;
         font-family: helvetica;
       }
+     body {
+     background-image: url('LOBBY.JPEG');
+     }
     </style>
   </head>
   <body>
