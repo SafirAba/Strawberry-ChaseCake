@@ -1,27 +1,38 @@
- <head>
-    <title>Safir Prettner</title>
     <style>
-      img {
-        width: 200px;
-        border-radius: 5px;
-        float: left;
-        margin-top: 200px;
-        
+     
+      #object1 {
+        width: 100%;
+        height: 100%;
+        background-color: green;
+        object-fit: fill;
+        object-position: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
       }
-      .username {
-        font-family: helvetica bold;
-        color: #abcdab;;
-      }
-      .description {
+
+      .centertext {
+        z-index: 100;
+        position: absolute;
         color: #abcdab;
-        font-family: helvetica;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        left: 40%;
+        top: 50%;
+        text-shadow: 2px 2px 10px #010101;
+      }
+      .container {
+        height: 100%;
+        width: auto;
+        position: relative;
       }
     </style>
   </head>
   <body>
-    <img src="LOBBY.JPEG" alt="An image of the Lobby" />
-    <h1 class="username">Safir Prettner</h1>
-    <h2 class="description">
-      I study Computer Science at The Royal Institute of Technology
-    </h2>
+    <div class="container">
+      <img id="object1" src="images/background.jpg" alt="background image" />
+      <div class="centertext">Safir Prettner</div>
+    </div>
   </body>
